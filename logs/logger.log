@@ -1,0 +1,35 @@
+  INFO [0x000008c4] [2023-06-16 20:46:31,830] - 
+  INFO [0x000008c4] [2023-06-16 20:46:31,830] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x000008c4] [2023-06-16 20:46:31,831] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+  INFO [0x000008c4] [2023-06-16 20:46:31,831] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/server_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/server_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/server_assets/res/
+  INFO [0x000008c4] [2023-06-16 20:46:31,831] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x000008c4] [2023-06-16 20:46:31,859] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:3581 )
+  INFO [0x000008c4] [2023-06-16 20:46:31,859] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.126.1:3581, SOMAXCONN=511.
+  INFO [0x000008c4] [2023-06-16 20:46:31,861] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:3582 )
+  INFO [0x000008c4] [2023-06-16 20:46:31,861] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:3582, SOMAXCONN=511.
+  INFO [0x000008c4] [2023-06-16 20:46:31,863] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 20:06:53 Jun 15 2023. AppID: 2000. UID: 63819. PID: 10984 ----
+  INFO [0x000008c4] [2023-06-16 20:46:31,863] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+  INFO [0x000008c4] [2023-06-16 20:46:31,863] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x000008c4] [2023-06-16 20:46:31,863] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x000008c4] [2023-06-16 20:46:32,032] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+  INFO [0x000008c4] [2023-06-16 20:46:32,032] - Script::install(): KBExtra is successfully!
+S_INFO [0x000008c4] [2023-06-16 20:46:32,045] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x000008c4] [2023-06-16 20:46:32,045] - TelnetServer server is running on port 34000
+  INFO [0x000008c4] [2023-06-16 20:46:32,048] - ---- logger is running ----
+ DEBUG [0x000008c4] [2023-06-16 20:46:32,048] - Components::process(): Request for the process of identity...
+  INFO [0x000008c4] [2023-06-16 20:46:38,157] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:3584, extaddr:nonsupport, extport:0,  from 192.168.126.1:3585/0/0/0.
+  INFO [0x000008c4] [2023-06-16 20:46:38,157] - Components::addComponent: reset orderLog, uid=63819!
+  INFO [0x000008c4] [2023-06-16 20:46:38,157] - Components::addComponent[cellappmgr], uid=63819, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x000008c4] [2023-06-16 20:46:38,157] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:3587, extaddr:nonsupport, extport:0,  from 192.168.126.1:3589/0/0/0.
+  INFO [0x000008c4] [2023-06-16 20:46:38,157] - Components::addComponent[dbmgr], uid=63819, componentID=4000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x000008c4] [2023-06-16 20:46:38,157] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:3586, extaddr:192.168.126.1, extport:20015,  from 192.168.126.1:3590/0/0/0.
+  INFO [0x000008c4] [2023-06-16 20:46:38,157] - Components::addComponent[baseapp], uid=63819, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x000008c4] [2023-06-16 20:46:38,157] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:3588, extaddr:nonsupport, extport:0,  from 192.168.126.1:3592/0/0/0.
+  INFO [0x000008c4] [2023-06-16 20:46:38,158] - Components::addComponent[cellapp], uid=63819, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x000008c4] [2023-06-16 20:46:38,158] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:3591, extaddr:192.168.126.1, extport:20013,  from 192.168.126.1:3594/0/0/0.
+  INFO [0x000008c4] [2023-06-16 20:46:38,158] - Components::addComponent[loginapp], uid=63819, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x000008c4] [2023-06-16 20:46:39,186] - Components::process(): Found all the components!
+  INFO [0x000008c4] [2023-06-16 20:46:40,872] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:3583, extaddr:nonsupport, extport:0,  from 192.168.126.1:3603/0/0/0.
+  INFO [0x000008c4] [2023-06-16 20:46:40,872] - Components::addComponent[baseappmgr], uid=63819, componentID=5000, globalorderid=6, grouporderid=1, totalcount=1

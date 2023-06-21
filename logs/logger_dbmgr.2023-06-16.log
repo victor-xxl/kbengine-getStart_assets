@@ -1,0 +1,82 @@
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 495] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 496] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 496] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/server_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/server_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/server_assets/res/
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 496] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 511] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:3587 )
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 511] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:3587, SOMAXCONN=511.
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 511] - server-configs:
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 511] - 	internalTcpAddr : 192.168.126.1:3587
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 511] - 	componentID : 4000
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 567] - Components::findLogger: found logger, addr:192.168.126.1:3582
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 567] - Components::addComponent: reset orderLog, uid=63819!
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 567] - Components::addComponent[logger], uid=63819, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 671] - ---- dbmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: CEEA1830B25FC811C6B0172173A5FCD0. Config: Debug X64. Built: 20:07:53 Jun 15 2023. AppID: 4000. UID: 63819. PID: 14288 ----
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 672] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 672] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 672] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 836] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 836] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 904] - Dbmgr::initializeEnd: digest(363BB7D9C7C9010E5779213C13D38542)
+  S_INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 904] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 904] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:32 905] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 63819 4000  [2023-06-16 20:46:33 150] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+01C75EBAA6C47ABF30A62A9A8926947D1AE7E04634696DF6DBC0B0AECDA19349B6B15A10750E13C482931CE6768C6F76163EC8917F868010CF1B33E4422192DE63AB51B00B37DB241C3DEE9D4A3BFD2956BCBE4A72650758710D8058FDF902373800E2C2AB72C6A755C55EFC88A8534195D270EEA52EDEE89EC45429934DBBC5
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 167] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 182] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:33 182] - DBUtil::createInterface[0xab81cfe3c8]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:33 182] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:33 182] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:33 283] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 63819 4000  [2023-06-16 20:46:33 283] - DBInterfaceMysql::checkErrors: not found Account table(dbInterface=default), reset kbe_* table...
+ WARNING      dbmgr-1 63819 4000  [2023-06-16 20:46:33 283] - DBInterfaceMysql::checkErrors: reset kbe_* table(dbInterface=default) end!
+ WARNING      dbmgr-1 63819 4000  [2023-06-16 20:46:33 328] - E:\XMeditation\StudyServer\KBEngine\kbengine-2.5.12\kbe\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.42 seconds
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:33 477] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 477] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 182] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 182] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 182] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 182] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 183] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 184] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 184] - DBThread::onStart(): 0x2a79af15510!
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 184] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 184] - DBThread::onStart(): 0x2a79af15b90!
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 184] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 184] - DBThread::onStart(): 0x2a79af15ac0!
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 184] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 184] - DBThread::onStart(): 0x2a79af15c60!
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 185] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 185] - DBThread::onStart(): 0x2a79af16960!
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:33 288] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:33 289] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:33 290] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:33 291] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:33 296] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:33 296] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:33 296] - syncToDB(): Account->sm_autoLoad(tinyint not null DEFAULT 0).
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:33 296] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:33 296] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:33 313] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:39 579] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:39 579] - Components::addComponent: reset orderLog, uid=63819!
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:39 579] - Components::addComponent[interfaces], uid=63819, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:40 585] - Components::process(): Found all the components!
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:43 913] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:3584, extaddr:nonsupport, extport:0,  from 192.168.126.1:3606/0/0/0.
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:43 913] - Components::addComponent: reset orderLog, uid=63819!
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:43 913] - Components::addComponent[cellappmgr], uid=63819, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:44 502] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:3591, extaddr:192.168.126.1, extport:20013,  from 192.168.126.1:3608/0/0/0.
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:44 502] - Components::addComponent[loginapp], uid=63819, componentID=9000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:45 050] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:3583, extaddr:nonsupport, extport:0,  from 192.168.126.1:3610/0/0/0.
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:45 050] - Components::addComponent[baseappmgr], uid=63819, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:46 765] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:3588, extaddr:nonsupport, extport:0,  from 192.168.126.1:3612/0/0/0.
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:46 765] - Components::addComponent[cellapp], uid=63819, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:48 066] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:3586, extaddr:192.168.126.1, extport:20015,  from 192.168.126.1:3615/0/0/0.
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:48 066] - Components::addComponent[baseapp], uid=63819, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:51 084] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 63819 4000  [2023-06-16 20:46:51 084] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 63819 4000  [2023-06-16 20:46:51 084] - SyncAppDatasHandler::~SyncAppDatasHandler()

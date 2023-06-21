@@ -1,0 +1,42 @@
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:31 967] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:31 967] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:31 968] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/server_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/server_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/server_assets/res/
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:31 968] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:31 983] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:3583 )
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:31 984] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:3583, SOMAXCONN=511.
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:31 984] - server-configs:
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:31 984] - 	internalTcpAddr : 192.168.126.1:3583
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:31 984] - 	componentID : 5000
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:33 486] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Debug X64. Built: 20:07:33 Jun 15 2023. AppID: 5000. UID: 63819. PID: 7888 ----
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:33 487] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:33 487] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:33 487] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:33 698] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 63819 5000  [2023-06-16 20:46:33 698] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:40 828] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:40 870] - Components::findComponents: found logger, addr:192.168.126.1:3582
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:40 870] - Components::addComponent: reset orderLog, uid=63819!
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:40 870] - Components::addComponent[logger], uid=63819, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:40 873] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:40 973] - Components::findComponents: found dbmgr, addr:192.168.126.1:3587
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:40 973] - Components::addComponent: reset orderLog, uid=63819!
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:40 974] - Components::addComponent[dbmgr], uid=63819, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:40 974] - Components::findComponents: found dbmgr, addr:192.168.126.1:3587
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:42 988] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:42 996] - Components::findComponents: found cellappmgr, addr:192.168.126.1:3584
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:42 996] - Components::addComponent[cellappmgr], uid=63819, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:42 996] - Components::findComponents: found cellappmgr, addr:192.168.126.1:3584
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:43 997] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:3584, extaddr:nonsupport, extport:0,  from 192.168.126.1:3607/0/0/0.
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:44 521] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:3591, extaddr:192.168.126.1, extport:20013,  from 192.168.126.1:3609/0/0/0.
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:44 521] - Components::addComponent[loginapp], uid=63819, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:45 048] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:45 068] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:45 088] - Components::process(): Found all the components!
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:46 874] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:3588, extaddr:nonsupport, extport:0,  from 192.168.126.1:3614/0/0/0.
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:46 875] - Components::addComponent[cellapp], uid=63819, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:48 070] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:3586, extaddr:192.168.126.1, extport:20015,  from 192.168.126.1:3617/0/0/0.
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:48 070] - Components::addComponent[baseapp], uid=63819, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:52 847] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 63819 5000  [2023-06-16 20:46:52 847] - Baseappmgr::onBaseappInitProgress: all completed!

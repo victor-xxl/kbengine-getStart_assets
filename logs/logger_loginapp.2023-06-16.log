@@ -1,0 +1,43 @@
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 691] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 692] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 692] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/server_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/server_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/server_assets/res/
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 692] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 708] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:20013 )
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 708] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.126.1:20013, SOMAXCONN=511.
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 709] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:3591 )
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 710] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:3591, SOMAXCONN=511.
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 710] - server-configs:
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 710] - 	internalTcpAddr : 192.168.126.1:3591
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 710] - 	externalTcpAddr : 192.168.126.1:20013
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 710] - 	componentID : 9000
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 978] - Components::findLogger: found logger, addr:192.168.126.1:3582
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 978] - Components::addComponent: reset orderLog, uid=63819!
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 978] - Components::addComponent[logger], uid=63819, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 983] - ---- loginapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 1102EA4445FA7BC78DFA939A2161D781. Config: Debug X64. Built: 20:07:36 Jun 15 2023. AppID: 9000. UID: 63819. PID: 9620 ----
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 983] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 983] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:32 983] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:33 146] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:33 146] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 63819 9000  [2023-06-16 20:46:33 158] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:33 159] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:33 311] - ---- loginapp is running ----
+   DEBUG   loginapp-1 63819 9000  [2023-06-16 20:46:33 311] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:40 419] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:40 463] - Components::findComponents: found dbmgr, addr:192.168.126.1:3587
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:40 463] - Components::addComponent: reset orderLog, uid=63819!
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:40 463] - Components::addComponent[dbmgr], uid=63819, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:40 464] - Components::findComponents: found dbmgr, addr:192.168.126.1:3587
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:42 479] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:42 489] - Components::findComponents: found baseappmgr, addr:192.168.126.1:3583
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:42 489] - Components::addComponent[baseappmgr], uid=63819, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:42 489] - Components::findComponents: found baseappmgr, addr:192.168.126.1:3583
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:44 498] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:44 518] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:44 521] - Components::process(): Found all the components!
+    INFO   loginapp-1 63819 9000  [2023-06-16 20:46:51 084] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=2, startGroupOrder=1, digest=363BB7D9C7C9010E5779213C13D38542.
+    INFO   loginapp01 63819 9000  [2023-06-16 20:46:52 292] - HTTPCBHandler::bind: 192.168.126.1:21103
+ WARNING   loginapp01 63819 9000  [2023-06-16 20:46:52 292] - E:\XMeditation\StudyServer\KBEngine\kbengine-2.5.12\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.21 seconds
+    INFO   loginapp01 63819 9000  [2023-06-16 20:46:52 847] - Loginapp::onBaseappInitProgress: progress=1.

@@ -1,0 +1,29 @@
+  INFO root [2023-06-16 20:46:31,823] - 
+  INFO root [2023-06-16 20:46:31,823] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2023-06-16 20:46:31,824] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+  INFO root [2023-06-16 20:46:31,825] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/server_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/server_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/server_assets/res/
+  INFO root [2023-06-16 20:46:31,825] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2023-06-16 20:46:31,841] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:30099 )
+  INFO root [2023-06-16 20:46:31,841] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:30099, SOMAXCONN=511.
+  INFO root [2023-06-16 20:46:31,841] - server-configs:
+  INFO root [2023-06-16 20:46:31,841] - 	internalTcpAddr : 192.168.126.1:30099
+  INFO root [2023-06-16 20:46:31,841] - 	externalTcpAddr : %s
+  INFO root [2023-06-16 20:46:31,841] - 	componentID : 3000
+  INFO root [2023-06-16 20:46:31,844] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Debug X64. Built: 20:06:58 Jun 15 2023. AppID: 3000. UID: 63819. PID: 22976 ----
+  INFO root [2023-06-16 20:46:31,844] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+  INFO root [2023-06-16 20:46:31,844] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2023-06-16 20:46:31,844] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2023-06-16 20:46:32,013] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+  INFO root [2023-06-16 20:46:32,013] - Script::install(): KBExtra is successfully!
+S_INFO root [2023-06-16 20:46:32,141] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2023-06-16 20:46:32,141] - TelnetServer server is running on port 33000
+  INFO root [2023-06-16 20:46:32,281] - ---- interfaces is running ----
+ DEBUG root [2023-06-16 20:46:32,281] - Components::process(): Request for the process of identity...
+  INFO root [2023-06-16 20:46:38,382] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:3587, extaddr:nonsupport, extport:0,  from 127.0.0.1:3593/0/0/0.
+  INFO root [2023-06-16 20:46:38,382] - Components::addComponent: reset orderLog, uid=63819!
+  INFO root [2023-06-16 20:46:38,382] - Components::addComponent[dbmgr], uid=63819, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2023-06-16 20:46:39,441] - Components::process(): Found all the components!
+  WARN root [2023-06-16 20:53:48,200] - TCPPacketReceiver::processPendingEvents(127.0.0.1:3593): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2023-06-16 20:53:48,201] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
