@@ -2,9 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\base",
+    "\\bots",
+    "\\cell",
+    "\\common",
+    "\\data",
+    "\\db",
+    "\\entity_defs",
     "\\server_common",
     "\\user_type"
   ],
-  "SelectedNode": "\\base\\KBEngine.py",
+  "SelectedNode": "\\base\\FirstSpace.py",
   "PreviewInSolutionExplorer": false
 }

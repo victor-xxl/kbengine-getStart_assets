@@ -12,6 +12,7 @@ def onBaseAppReady(isBootstrap):
 	"""
 	INFO_MSG('onBaseAppReady: isBootstrap=%s, appID=%s, bootstrapGroupIndex=%s, bootstrapGlobalIndex=%s' % \
 	 (isBootstrap, os.getenv("KBE_COMPONENTID"), os.getenv("KBE_BOOTIDX_GROUP"), os.getenv("KBE_BOOTIDX_GLOBAL")))
+	KBEngine.createEntityLocally("FirstSpace",{})
 
 def onReadyForLogin(isBootstrap):
 	"""

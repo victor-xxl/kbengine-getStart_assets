@@ -33,3 +33,449 @@ S_INFO [0x000008c4] [2023-06-16 20:46:32,045] - onLoggerAppReady: bootstrapGroup
   INFO [0x000008c4] [2023-06-16 20:46:39,186] - Components::process(): Found all the components!
   INFO [0x000008c4] [2023-06-16 20:46:40,872] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:3583, extaddr:nonsupport, extport:0,  from 192.168.126.1:3603/0/0/0.
   INFO [0x000008c4] [2023-06-16 20:46:40,872] - Components::addComponent[baseappmgr], uid=63819, componentID=5000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00001d64] [2023-06-24 12:03:42,878] - 
+  INFO [0x00001d64] [2023-06-24 12:03:42,956] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00001d64] [2023-06-24 12:03:42,957] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+  INFO [0x00001d64] [2023-06-24 12:03:42,957] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/res/
+  INFO [0x00001d64] [2023-06-24 12:03:42,957] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x00001d64] [2023-06-24 12:03:42,975] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:10378 )
+  INFO [0x00001d64] [2023-06-24 12:03:42,976] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.126.1:10378, SOMAXCONN=511.
+  INFO [0x00001d64] [2023-06-24 12:03:42,977] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:10379 )
+  INFO [0x00001d64] [2023-06-24 12:03:42,977] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:10379, SOMAXCONN=511.
+  INFO [0x00001d64] [2023-06-24 12:03:42,980] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 20:06:53 Jun 15 2023. AppID: 2000. UID: 63819. PID: 43244 ----
+  INFO [0x00001d64] [2023-06-24 12:03:42,980] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+  INFO [0x00001d64] [2023-06-24 12:03:42,980] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00001d64] [2023-06-24 12:03:42,980] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00001d64] [2023-06-24 12:03:43,155] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+  INFO [0x00001d64] [2023-06-24 12:03:43,155] - Script::install(): KBExtra is successfully!
+S_INFO [0x00001d64] [2023-06-24 12:03:43,235] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00001d64] [2023-06-24 12:03:43,235] - TelnetServer server is running on port 34000
+  INFO [0x00001d64] [2023-06-24 12:03:43,238] - ---- logger is running ----
+ DEBUG [0x00001d64] [2023-06-24 12:03:43,238] - Components::process(): Request for the process of identity...
+  INFO [0x00001d64] [2023-06-24 12:03:49,510] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10372, extaddr:nonsupport, extport:0,  from 192.168.126.1:10388/0/0/0.
+  INFO [0x00001d64] [2023-06-24 12:03:49,510] - Components::addComponent: reset orderLog, uid=63819!
+  INFO [0x00001d64] [2023-06-24 12:03:49,511] - Components::addComponent[cellappmgr], uid=63819, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00001d64] [2023-06-24 12:03:49,888] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10371, extaddr:nonsupport, extport:0,  from 192.168.126.1:10389/0/0/0.
+  INFO [0x00001d64] [2023-06-24 12:03:49,888] - Components::addComponent[baseappmgr], uid=63819, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00001d64] [2023-06-24 12:03:50,535] - Components::process(): Found all the components!
+  INFO [0x00001d64] [2023-06-24 12:03:52,626] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10382, extaddr:192.168.126.1, extport:20013,  from 192.168.126.1:10393/0/0/0.
+  INFO [0x00001d64] [2023-06-24 12:03:52,626] - Components::addComponent[loginapp], uid=63819, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00007084] [2023-06-24 12:07:35,320] - 
+  INFO [0x00007084] [2023-06-24 12:07:35,321] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00007084] [2023-06-24 12:07:35,321] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+  INFO [0x00007084] [2023-06-24 12:07:35,321] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/res/
+  INFO [0x00007084] [2023-06-24 12:07:35,321] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x00007084] [2023-06-24 12:07:35,337] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:10556 )
+  INFO [0x00007084] [2023-06-24 12:07:35,338] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.126.1:10556, SOMAXCONN=511.
+  INFO [0x00007084] [2023-06-24 12:07:35,339] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:10557 )
+  INFO [0x00007084] [2023-06-24 12:07:35,339] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:10557, SOMAXCONN=511.
+  INFO [0x00007084] [2023-06-24 12:07:35,341] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 20:06:53 Jun 15 2023. AppID: 2000. UID: 63819. PID: 53048 ----
+  INFO [0x00007084] [2023-06-24 12:07:35,341] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+  INFO [0x00007084] [2023-06-24 12:07:35,341] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00007084] [2023-06-24 12:07:35,341] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00007084] [2023-06-24 12:07:35,505] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+  INFO [0x00007084] [2023-06-24 12:07:35,505] - Script::install(): KBExtra is successfully!
+S_INFO [0x00007084] [2023-06-24 12:07:35,513] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00007084] [2023-06-24 12:07:35,513] - TelnetServer server is running on port 34000
+  INFO [0x00007084] [2023-06-24 12:07:35,515] - ---- logger is running ----
+ DEBUG [0x00007084] [2023-06-24 12:07:35,516] - Components::process(): Request for the process of identity...
+  INFO [0x00007084] [2023-06-24 12:07:41,846] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10561, extaddr:192.168.126.1, extport:20015,  from 192.168.126.1:10564/0/0/0.
+  INFO [0x00007084] [2023-06-24 12:07:41,846] - Components::addComponent: reset orderLog, uid=63819!
+  INFO [0x00007084] [2023-06-24 12:07:41,847] - Components::addComponent[baseapp], uid=63819, componentID=7001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00007084] [2023-06-24 12:07:41,852] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10563, extaddr:192.168.126.1, extport:20013,  from 192.168.126.1:10565/0/0/0.
+  INFO [0x00007084] [2023-06-24 12:07:41,852] - Components::addComponent[loginapp], uid=63819, componentID=9000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00007084] [2023-06-24 12:07:42,874] - Components::process(): Found all the components!
+  INFO [0x00007084] [2023-06-24 12:07:43,471] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10559, extaddr:nonsupport, extport:0,  from 192.168.126.1:10570/0/0/0.
+  INFO [0x00007084] [2023-06-24 12:07:43,471] - Components::addComponent[baseappmgr], uid=63819, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00007084] [2023-06-24 12:07:43,624] - Components::removeComponentByChannel: baseapp : 7001, Normal exit!
+  INFO [0x00007084] [2023-06-24 12:07:44,585] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10560, extaddr:nonsupport, extport:0,  from 192.168.126.1:10571/0/0/0.
+  INFO [0x00007084] [2023-06-24 12:07:44,585] - Components::addComponent[cellappmgr], uid=63819, componentID=6000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00007084] [2023-06-24 12:10:37,924] - Logger::registerLogWatcher: addr=192.168.126.1:10683 is successfully!
+  WARN [0x00007084] [2023-06-24 12:10:53,526] - TCPPacketReceiver::processPendingEvents(192.168.126.1:10570): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00007084] [2023-06-24 12:10:53,526] - Components::removeComponentByChannel: baseappmgr : 5000, Normal exit!
+  INFO [0x0000fa38] [2023-06-24 12:11:22,312] - 
+  INFO [0x0000fa38] [2023-06-24 12:11:22,312] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x0000fa38] [2023-06-24 12:11:22,312] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+  INFO [0x0000fa38] [2023-06-24 12:11:22,312] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/res/
+  INFO [0x0000fa38] [2023-06-24 12:11:22,312] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x0000fa38] [2023-06-24 12:11:22,328] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:10702 )
+  INFO [0x0000fa38] [2023-06-24 12:11:22,328] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.126.1:10702, SOMAXCONN=511.
+  INFO [0x0000fa38] [2023-06-24 12:11:22,329] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:10703 )
+  INFO [0x0000fa38] [2023-06-24 12:11:22,329] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:10703, SOMAXCONN=511.
+  INFO [0x0000fa38] [2023-06-24 12:11:22,331] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 20:06:53 Jun 15 2023. AppID: 2000. UID: 63819. PID: 89612 ----
+  INFO [0x0000fa38] [2023-06-24 12:11:22,331] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+  INFO [0x0000fa38] [2023-06-24 12:11:22,332] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x0000fa38] [2023-06-24 12:11:22,332] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x0000fa38] [2023-06-24 12:11:22,496] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+  INFO [0x0000fa38] [2023-06-24 12:11:22,496] - Script::install(): KBExtra is successfully!
+S_INFO [0x0000fa38] [2023-06-24 12:11:22,504] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x0000fa38] [2023-06-24 12:11:22,505] - TelnetServer server is running on port 34000
+  INFO [0x0000fa38] [2023-06-24 12:11:22,507] - ---- logger is running ----
+ DEBUG [0x0000fa38] [2023-06-24 12:11:22,507] - Components::process(): Request for the process of identity...
+  INFO [0x0000fa38] [2023-06-24 12:11:28,811] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10709, extaddr:192.168.126.1, extport:20013,  from 192.168.126.1:10712/0/0/0.
+  INFO [0x0000fa38] [2023-06-24 12:11:28,812] - Components::addComponent: reset orderLog, uid=63819!
+  INFO [0x0000fa38] [2023-06-24 12:11:28,812] - Components::addComponent[loginapp], uid=63819, componentID=9000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x0000fa38] [2023-06-24 12:11:28,812] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10707, extaddr:192.168.126.1, extport:20015,  from 192.168.126.1:10713/0/0/0.
+  INFO [0x0000fa38] [2023-06-24 12:11:28,812] - Components::addComponent[baseapp], uid=63819, componentID=7001, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x0000fa38] [2023-06-24 12:11:29,825] - Components::process(): Found all the components!
+  INFO [0x0000fa38] [2023-06-24 12:11:30,466] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10705, extaddr:nonsupport, extport:0,  from 192.168.126.1:10727/0/0/0.
+  INFO [0x0000fa38] [2023-06-24 12:11:30,466] - Components::addComponent[baseappmgr], uid=63819, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x0000fa38] [2023-06-24 12:11:31,577] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10706, extaddr:nonsupport, extport:0,  from 192.168.126.1:10728/0/0/0.
+  INFO [0x0000fa38] [2023-06-24 12:11:31,577] - Components::addComponent[cellappmgr], uid=63819, componentID=6000, globalorderid=4, grouporderid=1, totalcount=1
+  WARN [0x0000fa38] [2023-06-24 12:11:47,881] - TCPPacketReceiver::processPendingEvents(192.168.126.1:10713): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x0000fa38] [2023-06-24 12:11:47,881] - Components::removeComponentByChannel: baseapp : 7001, Normal exit!
+  INFO [0x000082e8] [2023-06-24 12:12:02,397] - 
+  INFO [0x000082e8] [2023-06-24 12:12:02,398] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x000082e8] [2023-06-24 12:12:02,398] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+  INFO [0x000082e8] [2023-06-24 12:12:02,398] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/res/
+  INFO [0x000082e8] [2023-06-24 12:12:02,398] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x000082e8] [2023-06-24 12:12:02,413] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:10746 )
+  INFO [0x000082e8] [2023-06-24 12:12:02,413] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.126.1:10746, SOMAXCONN=511.
+  INFO [0x000082e8] [2023-06-24 12:12:02,414] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:10747 )
+  INFO [0x000082e8] [2023-06-24 12:12:02,414] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:10747, SOMAXCONN=511.
+  INFO [0x000082e8] [2023-06-24 12:12:02,416] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 20:06:53 Jun 15 2023. AppID: 2000. UID: 63819. PID: 87120 ----
+  INFO [0x000082e8] [2023-06-24 12:12:02,416] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+  INFO [0x000082e8] [2023-06-24 12:12:02,416] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x000082e8] [2023-06-24 12:12:02,416] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x000082e8] [2023-06-24 12:12:02,582] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+  INFO [0x000082e8] [2023-06-24 12:12:02,582] - Script::install(): KBExtra is successfully!
+S_INFO [0x000082e8] [2023-06-24 12:12:02,589] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x000082e8] [2023-06-24 12:12:02,589] - TelnetServer server is running on port 34000
+  INFO [0x000082e8] [2023-06-24 12:12:02,592] - ---- logger is running ----
+ DEBUG [0x000082e8] [2023-06-24 12:12:02,592] - Components::process(): Request for the process of identity...
+  INFO [0x000082e8] [2023-06-24 12:12:08,896] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10751, extaddr:192.168.126.1, extport:20015,  from 192.168.126.1:10755/0/0/0.
+  INFO [0x000082e8] [2023-06-24 12:12:08,896] - Components::addComponent: reset orderLog, uid=63819!
+  INFO [0x000082e8] [2023-06-24 12:12:08,896] - Components::addComponent[baseapp], uid=63819, componentID=7001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x000082e8] [2023-06-24 12:12:08,896] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10753, extaddr:192.168.126.1, extport:20013,  from 192.168.126.1:10754/0/0/0.
+  INFO [0x000082e8] [2023-06-24 12:12:08,896] - Components::addComponent[loginapp], uid=63819, componentID=9000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x000082e8] [2023-06-24 12:12:09,910] - Components::process(): Found all the components!
+  INFO [0x000082e8] [2023-06-24 12:12:11,745] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10750, extaddr:nonsupport, extport:0,  from 192.168.126.1:10762/0/0/0.
+  INFO [0x000082e8] [2023-06-24 12:12:11,745] - Components::addComponent[cellappmgr], uid=63819, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x000082e8] [2023-06-24 12:12:11,745] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10749, extaddr:nonsupport, extport:0,  from 192.168.126.1:10761/0/0/0.
+  INFO [0x000082e8] [2023-06-24 12:12:11,745] - Components::addComponent[baseappmgr], uid=63819, componentID=5000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x000082e8] [2023-06-24 12:13:08,896] - ServerApp::onChannelTimeOut: Channel 192.168.126.1:10755/0/0/0 timeout!
+  INFO [0x000082e8] [2023-06-24 12:13:08,896] - Components::removeComponentByChannel: baseapp : 7001, Normal exit!
+  INFO [0x000017cc] [2023-06-24 12:15:08,695] - 
+  INFO [0x000017cc] [2023-06-24 12:15:08,695] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x000017cc] [2023-06-24 12:15:08,696] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+  INFO [0x000017cc] [2023-06-24 12:15:08,696] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/res/
+  INFO [0x000017cc] [2023-06-24 12:15:08,696] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x000017cc] [2023-06-24 12:15:08,711] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:10914 )
+  INFO [0x000017cc] [2023-06-24 12:15:08,711] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.126.1:10914, SOMAXCONN=511.
+  INFO [0x000017cc] [2023-06-24 12:15:08,713] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:10915 )
+  INFO [0x000017cc] [2023-06-24 12:15:08,713] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:10915, SOMAXCONN=511.
+  INFO [0x000017cc] [2023-06-24 12:15:08,715] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 20:06:53 Jun 15 2023. AppID: 2000. UID: 63819. PID: 58288 ----
+  INFO [0x000017cc] [2023-06-24 12:15:08,715] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+  INFO [0x000017cc] [2023-06-24 12:15:08,715] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x000017cc] [2023-06-24 12:15:08,715] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x000017cc] [2023-06-24 12:15:08,883] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+  INFO [0x000017cc] [2023-06-24 12:15:08,883] - Script::install(): KBExtra is successfully!
+S_INFO [0x000017cc] [2023-06-24 12:15:08,891] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x000017cc] [2023-06-24 12:15:08,891] - TelnetServer server is running on port 34000
+  INFO [0x000017cc] [2023-06-24 12:15:08,894] - ---- logger is running ----
+ DEBUG [0x000017cc] [2023-06-24 12:15:08,894] - Components::process(): Request for the process of identity...
+  INFO [0x000017cc] [2023-06-24 12:15:15,197] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10919, extaddr:192.168.126.1, extport:20015,  from 192.168.126.1:10922/0/0/0.
+  INFO [0x000017cc] [2023-06-24 12:15:15,197] - Components::addComponent: reset orderLog, uid=63819!
+  INFO [0x000017cc] [2023-06-24 12:15:15,198] - Components::addComponent[baseapp], uid=63819, componentID=7001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x000017cc] [2023-06-24 12:15:15,198] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10921, extaddr:192.168.126.1, extport:20013,  from 192.168.126.1:10923/0/0/0.
+  INFO [0x000017cc] [2023-06-24 12:15:15,198] - Components::addComponent[loginapp], uid=63819, componentID=9000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x000017cc] [2023-06-24 12:15:16,231] - Components::process(): Found all the components!
+  INFO [0x000017cc] [2023-06-24 12:15:18,096] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10917, extaddr:nonsupport, extport:0,  from 192.168.126.1:10928/0/0/0.
+  INFO [0x000017cc] [2023-06-24 12:15:18,097] - Components::addComponent[baseappmgr], uid=63819, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x000017cc] [2023-06-24 12:15:18,097] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:10918, extaddr:nonsupport, extport:0,  from 192.168.126.1:10929/0/0/0.
+  INFO [0x000017cc] [2023-06-24 12:15:18,097] - Components::addComponent[cellappmgr], uid=63819, componentID=6000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x000017cc] [2023-06-24 12:16:15,198] - ServerApp::onChannelTimeOut: Channel 192.168.126.1:10922/0/0/0 timeout!
+  INFO [0x000017cc] [2023-06-24 12:16:15,198] - Components::removeComponentByChannel: baseapp : 7001, Normal exit!
+  INFO [0x0000a8a0] [2023-06-24 12:20:22,833] - 
+  INFO [0x0000a8a0] [2023-06-24 12:20:22,833] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x0000a8a0] [2023-06-24 12:20:22,834] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+  INFO [0x0000a8a0] [2023-06-24 12:20:22,834] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/res/
+  INFO [0x0000a8a0] [2023-06-24 12:20:22,834] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x0000a8a0] [2023-06-24 12:20:22,850] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:11118 )
+  INFO [0x0000a8a0] [2023-06-24 12:20:22,850] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.126.1:11118, SOMAXCONN=511.
+  INFO [0x0000a8a0] [2023-06-24 12:20:22,852] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:11119 )
+  INFO [0x0000a8a0] [2023-06-24 12:20:22,852] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:11119, SOMAXCONN=511.
+  INFO [0x0000a8a0] [2023-06-24 12:20:22,854] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 20:06:53 Jun 15 2023. AppID: 2000. UID: 63819. PID: 79832 ----
+  INFO [0x0000a8a0] [2023-06-24 12:20:22,854] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+  INFO [0x0000a8a0] [2023-06-24 12:20:22,854] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x0000a8a0] [2023-06-24 12:20:22,854] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x0000a8a0] [2023-06-24 12:20:23,023] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+  INFO [0x0000a8a0] [2023-06-24 12:20:23,024] - Script::install(): KBExtra is successfully!
+S_INFO [0x0000a8a0] [2023-06-24 12:20:23,031] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x0000a8a0] [2023-06-24 12:20:23,031] - TelnetServer server is running on port 34000
+  INFO [0x0000a8a0] [2023-06-24 12:20:23,033] - ---- logger is running ----
+ DEBUG [0x0000a8a0] [2023-06-24 12:20:23,034] - Components::process(): Request for the process of identity...
+  WARN [0x0000a8a0] [2023-06-24 12:20:26,671] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20313, errorno=10048
+  WARN [0x0000a8a0] [2023-06-24 12:20:29,716] - TCPPacketReceiver::processPendingEvents(192.168.126.1:11130): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x0000a8a0] [2023-06-24 12:20:29,717] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:11127, extaddr:192.168.126.1, extport:20013,  from 192.168.126.1:11131/0/0/0.
+  INFO [0x0000a8a0] [2023-06-24 12:20:29,717] - Components::addComponent: reset orderLog, uid=63819!
+  INFO [0x0000a8a0] [2023-06-24 12:20:29,717] - Components::addComponent[loginapp], uid=63819, componentID=9000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x0000a8a0] [2023-06-24 12:20:30,734] - Components::process(): Found all the components!
+  INFO [0x000101e4] [2023-06-24 12:39:48,920] - 
+  INFO [0x000101e4] [2023-06-24 12:39:48,921] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x000101e4] [2023-06-24 12:39:48,921] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+  INFO [0x000101e4] [2023-06-24 12:39:48,921] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/res/
+  INFO [0x000101e4] [2023-06-24 12:39:48,921] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x000101e4] [2023-06-24 12:39:48,937] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:11805 )
+  INFO [0x000101e4] [2023-06-24 12:39:48,937] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.126.1:11805, SOMAXCONN=511.
+  INFO [0x000101e4] [2023-06-24 12:39:48,938] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:11806 )
+  INFO [0x000101e4] [2023-06-24 12:39:48,938] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:11806, SOMAXCONN=511.
+  INFO [0x000101e4] [2023-06-24 12:39:48,940] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 20:06:53 Jun 15 2023. AppID: 2000. UID: 63819. PID: 42620 ----
+  INFO [0x000101e4] [2023-06-24 12:39:48,940] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+  INFO [0x000101e4] [2023-06-24 12:39:48,940] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x000101e4] [2023-06-24 12:39:48,940] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x000101e4] [2023-06-24 12:39:49,110] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+  INFO [0x000101e4] [2023-06-24 12:39:49,110] - Script::install(): KBExtra is successfully!
+S_INFO [0x000101e4] [2023-06-24 12:39:49,117] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x000101e4] [2023-06-24 12:39:49,118] - TelnetServer server is running on port 34000
+  INFO [0x000101e4] [2023-06-24 12:39:49,120] - ---- logger is running ----
+ DEBUG [0x000101e4] [2023-06-24 12:39:49,120] - Components::process(): Request for the process of identity...
+  INFO [0x000101e4] [2023-06-24 12:39:55,417] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:11811, extaddr:192.168.126.1, extport:20013,  from 192.168.126.1:11813/0/0/0.
+  INFO [0x000101e4] [2023-06-24 12:39:55,417] - Components::addComponent: reset orderLog, uid=63819!
+  INFO [0x000101e4] [2023-06-24 12:39:55,417] - Components::addComponent[loginapp], uid=63819, componentID=9000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x000101e4] [2023-06-24 12:39:55,417] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:11810, extaddr:192.168.126.1, extport:20015,  from 192.168.126.1:11814/0/0/0.
+  INFO [0x000101e4] [2023-06-24 12:39:55,417] - Components::addComponent[baseapp], uid=63819, componentID=7001, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x000101e4] [2023-06-24 12:39:56,423] - Components::process(): Found all the components!
+  INFO [0x000101e4] [2023-06-24 12:39:58,286] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:11809, extaddr:nonsupport, extport:0,  from 192.168.126.1:11818/0/0/0.
+  INFO [0x000101e4] [2023-06-24 12:39:58,286] - Components::addComponent[cellappmgr], uid=63819, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x000101e4] [2023-06-24 12:39:58,287] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:11808, extaddr:nonsupport, extport:0,  from 192.168.126.1:11817/0/0/0.
+  INFO [0x000101e4] [2023-06-24 12:39:58,287] - Components::addComponent[baseappmgr], uid=63819, componentID=5000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x000101e4] [2023-06-24 12:40:55,417] - ServerApp::onChannelTimeOut: Channel 192.168.126.1:11814/0/0/0 timeout!
+  INFO [0x000101e4] [2023-06-24 12:40:55,417] - Components::removeComponentByChannel: baseapp : 7001, Normal exit!
+  INFO [0x00014a24] [2023-06-24 12:41:57,880] - 
+  INFO [0x00014a24] [2023-06-24 12:41:57,881] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00014a24] [2023-06-24 12:41:57,881] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+  INFO [0x00014a24] [2023-06-24 12:41:57,881] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/res/
+  INFO [0x00014a24] [2023-06-24 12:41:57,881] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x00014a24] [2023-06-24 12:41:57,896] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:11904 )
+  INFO [0x00014a24] [2023-06-24 12:41:57,896] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.126.1:11904, SOMAXCONN=511.
+  INFO [0x00014a24] [2023-06-24 12:41:57,897] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:11905 )
+  INFO [0x00014a24] [2023-06-24 12:41:57,897] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:11905, SOMAXCONN=511.
+  INFO [0x00014a24] [2023-06-24 12:41:57,899] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 20:06:53 Jun 15 2023. AppID: 2000. UID: 63819. PID: 71372 ----
+  INFO [0x00014a24] [2023-06-24 12:41:57,899] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+  INFO [0x00014a24] [2023-06-24 12:41:57,900] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00014a24] [2023-06-24 12:41:57,900] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00014a24] [2023-06-24 12:41:58,064] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+  INFO [0x00014a24] [2023-06-24 12:41:58,064] - Script::install(): KBExtra is successfully!
+S_INFO [0x00014a24] [2023-06-24 12:41:58,072] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00014a24] [2023-06-24 12:41:58,072] - TelnetServer server is running on port 34000
+  INFO [0x00014a24] [2023-06-24 12:41:58,074] - ---- logger is running ----
+ DEBUG [0x00014a24] [2023-06-24 12:41:58,075] - Components::process(): Request for the process of identity...
+  INFO [0x00014a24] [2023-06-24 12:42:04,382] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:11911, extaddr:192.168.126.1, extport:20013,  from 192.168.126.1:11912/0/0/0.
+  INFO [0x00014a24] [2023-06-24 12:42:04,383] - Components::addComponent: reset orderLog, uid=63819!
+  INFO [0x00014a24] [2023-06-24 12:42:04,383] - Components::addComponent[loginapp], uid=63819, componentID=9000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00014a24] [2023-06-24 12:42:04,383] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:11909, extaddr:192.168.126.1, extport:20015,  from 192.168.126.1:11913/0/0/0.
+  INFO [0x00014a24] [2023-06-24 12:42:04,383] - Components::addComponent[baseapp], uid=63819, componentID=7001, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00014a24] [2023-06-24 12:42:05,413] - Components::process(): Found all the components!
+  INFO [0x00014a24] [2023-06-24 12:42:06,166] - Components::removeComponentByChannel: baseapp : 7001, Normal exit!
+  INFO [0x00014a24] [2023-06-24 12:42:07,230] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:11907, extaddr:nonsupport, extport:0,  from 192.168.126.1:11920/0/0/0.
+  INFO [0x00014a24] [2023-06-24 12:42:07,230] - Components::addComponent[baseappmgr], uid=63819, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00014a24] [2023-06-24 12:42:07,331] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:11908, extaddr:nonsupport, extport:0,  from 192.168.126.1:11922/0/0/0.
+  INFO [0x00014a24] [2023-06-24 12:42:07,331] - Components::addComponent[cellappmgr], uid=63819, componentID=6000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x0001130c] [2023-06-24 12:49:33,249] - 
+  INFO [0x0001130c] [2023-06-24 12:49:33,249] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x0001130c] [2023-06-24 12:49:33,250] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+  INFO [0x0001130c] [2023-06-24 12:49:33,250] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/res/
+  INFO [0x0001130c] [2023-06-24 12:49:33,250] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x0001130c] [2023-06-24 12:49:33,267] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:12179 )
+  INFO [0x0001130c] [2023-06-24 12:49:33,267] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.126.1:12179, SOMAXCONN=511.
+  INFO [0x0001130c] [2023-06-24 12:49:33,268] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:12180 )
+  INFO [0x0001130c] [2023-06-24 12:49:33,268] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:12180, SOMAXCONN=511.
+  INFO [0x0001130c] [2023-06-24 12:49:33,271] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 20:06:53 Jun 15 2023. AppID: 2000. UID: 63819. PID: 54684 ----
+  INFO [0x0001130c] [2023-06-24 12:49:33,272] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+  INFO [0x0001130c] [2023-06-24 12:49:33,272] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x0001130c] [2023-06-24 12:49:33,272] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x0001130c] [2023-06-24 12:49:33,439] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+  INFO [0x0001130c] [2023-06-24 12:49:33,439] - Script::install(): KBExtra is successfully!
+S_INFO [0x0001130c] [2023-06-24 12:49:33,447] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x0001130c] [2023-06-24 12:49:33,447] - TelnetServer server is running on port 34000
+  INFO [0x0001130c] [2023-06-24 12:49:33,449] - ---- logger is running ----
+ DEBUG [0x0001130c] [2023-06-24 12:49:33,449] - Components::process(): Request for the process of identity...
+  WARN [0x0001130c] [2023-06-24 12:49:37,080] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20005, errorno=10048
+  WARN [0x0001130c] [2023-06-24 12:49:37,431] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20126, errorno=10048
+  INFO [0x0001130c] [2023-06-24 12:49:40,459] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:12185, extaddr:192.168.126.1, extport:20013,  from 192.168.126.1:12187/0/0/0.
+  INFO [0x0001130c] [2023-06-24 12:49:40,460] - Components::addComponent: reset orderLog, uid=63819!
+  INFO [0x0001130c] [2023-06-24 12:49:40,460] - Components::addComponent[loginapp], uid=63819, componentID=9000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x0001130c] [2023-06-24 12:49:40,460] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:12186, extaddr:192.168.126.1, extport:20015,  from 192.168.126.1:12188/0/0/0.
+  INFO [0x0001130c] [2023-06-24 12:49:40,460] - Components::addComponent[baseapp], uid=63819, componentID=7001, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x0001130c] [2023-06-24 12:49:41,487] - Components::process(): Found all the components!
+  INFO [0x0001130c] [2023-06-24 12:49:41,602] - Components::removeComponentByChannel: baseapp : 7001, Normal exit!
+  INFO [0x00008be8] [2023-06-24 12:53:16,094] - 
+  INFO [0x00008be8] [2023-06-24 12:53:16,094] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00008be8] [2023-06-24 12:53:16,094] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+  INFO [0x00008be8] [2023-06-24 12:53:16,094] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/res/
+  INFO [0x00008be8] [2023-06-24 12:53:16,094] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x00008be8] [2023-06-24 12:53:16,109] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:12353 )
+  INFO [0x00008be8] [2023-06-24 12:53:16,109] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.126.1:12353, SOMAXCONN=511.
+  INFO [0x00008be8] [2023-06-24 12:53:16,111] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:12354 )
+  INFO [0x00008be8] [2023-06-24 12:53:16,111] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:12354, SOMAXCONN=511.
+  INFO [0x00008be8] [2023-06-24 12:53:16,113] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 20:06:53 Jun 15 2023. AppID: 2000. UID: 63819. PID: 64456 ----
+  INFO [0x00008be8] [2023-06-24 12:53:16,113] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+  INFO [0x00008be8] [2023-06-24 12:53:16,113] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00008be8] [2023-06-24 12:53:16,113] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00008be8] [2023-06-24 12:53:16,278] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+  INFO [0x00008be8] [2023-06-24 12:53:16,278] - Script::install(): KBExtra is successfully!
+S_INFO [0x00008be8] [2023-06-24 12:53:16,286] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00008be8] [2023-06-24 12:53:16,286] - TelnetServer server is running on port 34000
+  INFO [0x00008be8] [2023-06-24 12:53:16,288] - ---- logger is running ----
+ DEBUG [0x00008be8] [2023-06-24 12:53:16,289] - Components::process(): Request for the process of identity...
+  INFO [0x00008be8] [2023-06-24 12:53:22,593] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:12360, extaddr:192.168.126.1, extport:20013,  from 192.168.126.1:12361/0/0/0.
+  INFO [0x00008be8] [2023-06-24 12:53:22,593] - Components::addComponent: reset orderLog, uid=63819!
+  INFO [0x00008be8] [2023-06-24 12:53:22,594] - Components::addComponent[loginapp], uid=63819, componentID=9000, globalorderid=1, grouporderid=1, totalcount=1
+  WARN [0x00008be8] [2023-06-24 12:53:22,594] - TCPPacketReceiver::processPendingEvents(192.168.126.1:12362): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00008be8] [2023-06-24 12:53:23,607] - Components::process(): Found all the components!
+  INFO [0x000118bc] [2023-06-24 13:03:31,513] - 
+  INFO [0x000118bc] [2023-06-24 13:03:31,513] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x000118bc] [2023-06-24 13:03:31,514] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+  INFO [0x000118bc] [2023-06-24 13:03:31,514] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/res/
+  INFO [0x000118bc] [2023-06-24 13:03:31,514] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x000118bc] [2023-06-24 13:03:31,528] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:12914 )
+  INFO [0x000118bc] [2023-06-24 13:03:31,528] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.126.1:12914, SOMAXCONN=511.
+  INFO [0x000118bc] [2023-06-24 13:03:31,529] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:12915 )
+  INFO [0x000118bc] [2023-06-24 13:03:31,529] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:12915, SOMAXCONN=511.
+  INFO [0x000118bc] [2023-06-24 13:03:31,531] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 20:06:53 Jun 15 2023. AppID: 2000. UID: 63819. PID: 65860 ----
+  INFO [0x000118bc] [2023-06-24 13:03:31,531] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+  INFO [0x000118bc] [2023-06-24 13:03:31,531] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x000118bc] [2023-06-24 13:03:31,531] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x000118bc] [2023-06-24 13:03:31,701] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+  INFO [0x000118bc] [2023-06-24 13:03:31,701] - Script::install(): KBExtra is successfully!
+S_INFO [0x000118bc] [2023-06-24 13:03:31,710] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x000118bc] [2023-06-24 13:03:31,710] - TelnetServer server is running on port 34000
+  INFO [0x000118bc] [2023-06-24 13:03:31,713] - ---- logger is running ----
+ DEBUG [0x000118bc] [2023-06-24 13:03:31,713] - Components::process(): Request for the process of identity...
+  INFO [0x000118bc] [2023-06-24 13:03:38,139] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:12920, extaddr:192.168.126.1, extport:20015,  from 192.168.126.1:12922/0/0/0.
+  INFO [0x000118bc] [2023-06-24 13:03:38,139] - Components::addComponent: reset orderLog, uid=63819!
+  INFO [0x000118bc] [2023-06-24 13:03:38,140] - Components::addComponent[baseapp], uid=63819, componentID=7001, globalorderid=1, grouporderid=1, totalcount=1
+  WARN [0x000118bc] [2023-06-24 13:03:38,355] - TCPPacketReceiver::processPendingEvents(192.168.126.1:12922): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x000118bc] [2023-06-24 13:03:38,355] - Components::removeComponentByChannel: baseapp : 7001, Normal exit!
+  INFO [0x000118bc] [2023-06-24 13:03:39,171] - Components::process(): Found all the components!
+  INFO [0x000118bc] [2023-06-24 13:03:39,724] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:12917, extaddr:nonsupport, extport:0,  from 192.168.126.1:12928/0/0/0.
+  INFO [0x000118bc] [2023-06-24 13:03:39,724] - Components::addComponent: reset orderLog, uid=63819!
+  INFO [0x000118bc] [2023-06-24 13:03:39,724] - Components::addComponent[baseappmgr], uid=63819, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x000118bc] [2023-06-24 13:03:40,129] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:12919, extaddr:192.168.126.1, extport:20013,  from 192.168.126.1:12930/0/0/0.
+  INFO [0x000118bc] [2023-06-24 13:03:40,129] - Components::addComponent[loginapp], uid=63819, componentID=9000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x000118bc] [2023-06-24 13:03:40,935] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:12921, extaddr:nonsupport, extport:0,  from 192.168.126.1:12931/0/0/0.
+  INFO [0x000118bc] [2023-06-24 13:03:40,936] - Components::addComponent[cellappmgr], uid=63819, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x0000aed8] [2023-06-25 10:47:47,434] - 
+  INFO [0x0000aed8] [2023-06-25 10:47:47,434] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x0000aed8] [2023-06-25 10:47:47,435] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+  INFO [0x0000aed8] [2023-06-25 10:47:47,435] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/res/
+  INFO [0x0000aed8] [2023-06-25 10:47:47,435] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x0000aed8] [2023-06-25 10:47:47,462] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:11858 )
+  INFO [0x0000aed8] [2023-06-25 10:47:47,462] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.126.1:11858, SOMAXCONN=511.
+  INFO [0x0000aed8] [2023-06-25 10:47:47,464] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:11859 )
+  INFO [0x0000aed8] [2023-06-25 10:47:47,464] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:11859, SOMAXCONN=511.
+  INFO [0x0000aed8] [2023-06-25 10:47:47,467] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 20:06:53 Jun 15 2023. AppID: 2000. UID: 63819. PID: 9892 ----
+  INFO [0x0000aed8] [2023-06-25 10:47:47,467] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+  INFO [0x0000aed8] [2023-06-25 10:47:47,468] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x0000aed8] [2023-06-25 10:47:47,468] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x0000aed8] [2023-06-25 10:47:47,658] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+  INFO [0x0000aed8] [2023-06-25 10:47:47,658] - Script::install(): KBExtra is successfully!
+S_INFO [0x0000aed8] [2023-06-25 10:47:47,669] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x0000aed8] [2023-06-25 10:47:47,669] - TelnetServer server is running on port 34000
+  INFO [0x0000aed8] [2023-06-25 10:47:47,673] - ---- logger is running ----
+ DEBUG [0x0000aed8] [2023-06-25 10:47:47,673] - Components::process(): Request for the process of identity...
+  INFO [0x0000aed8] [2023-06-25 10:47:54,007] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:11848, extaddr:nonsupport, extport:0,  from 192.168.126.1:11874/0/0/0.
+  INFO [0x0000aed8] [2023-06-25 10:47:54,007] - Components::addComponent: reset orderLog, uid=63819!
+  INFO [0x0000aed8] [2023-06-25 10:47:54,007] - Components::addComponent[cellappmgr], uid=63819, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x0000aed8] [2023-06-25 10:47:54,082] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:11847, extaddr:nonsupport, extport:0,  from 192.168.126.1:11876/0/0/0.
+  INFO [0x0000aed8] [2023-06-25 10:47:54,082] - Components::addComponent[baseappmgr], uid=63819, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x0000aed8] [2023-06-25 10:47:55,030] - Components::process(): Found all the components!
+  INFO [0x0000aed8] [2023-06-25 10:47:57,008] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:11861, extaddr:192.168.126.1, extport:20013,  from 192.168.126.1:11882/0/0/0.
+  INFO [0x0000aed8] [2023-06-25 10:47:57,008] - Components::addComponent[loginapp], uid=63819, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00008118] [2023-06-25 19:43:39,230] - 
+  INFO [0x00008118] [2023-06-25 19:43:39,240] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00008118] [2023-06-25 19:43:39,241] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+  INFO [0x00008118] [2023-06-25 19:43:39,241] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/res/
+  INFO [0x00008118] [2023-06-25 19:43:39,241] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x00008118] [2023-06-25 19:43:39,261] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:12049 )
+  INFO [0x00008118] [2023-06-25 19:43:39,261] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.126.1:12049, SOMAXCONN=511.
+  INFO [0x00008118] [2023-06-25 19:43:39,263] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:12050 )
+  INFO [0x00008118] [2023-06-25 19:43:39,263] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:12050, SOMAXCONN=511.
+  INFO [0x00008118] [2023-06-25 19:43:39,265] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 20:06:53 Jun 15 2023. AppID: 2000. UID: 63819. PID: 45968 ----
+  INFO [0x00008118] [2023-06-25 19:43:39,266] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+  INFO [0x00008118] [2023-06-25 19:43:39,266] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00008118] [2023-06-25 19:43:39,266] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00008118] [2023-06-25 19:43:39,441] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+  INFO [0x00008118] [2023-06-25 19:43:39,441] - Script::install(): KBExtra is successfully!
+S_INFO [0x00008118] [2023-06-25 19:43:39,451] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00008118] [2023-06-25 19:43:39,451] - TelnetServer server is running on port 34000
+  INFO [0x00008118] [2023-06-25 19:43:39,454] - ---- logger is running ----
+ DEBUG [0x00008118] [2023-06-25 19:43:39,454] - Components::process(): Request for the process of identity...
+  INFO [0x00008118] [2023-06-25 19:43:45,949] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:12042, extaddr:nonsupport, extport:0,  from 192.168.126.1:12064/0/0/0.
+  INFO [0x00008118] [2023-06-25 19:43:45,950] - Components::addComponent: reset orderLog, uid=63819!
+  INFO [0x00008118] [2023-06-25 19:43:45,950] - Components::addComponent[cellappmgr], uid=63819, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00008118] [2023-06-25 19:43:46,022] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:12040, extaddr:nonsupport, extport:0,  from 192.168.126.1:12065/0/0/0.
+  INFO [0x00008118] [2023-06-25 19:43:46,022] - Components::addComponent[baseappmgr], uid=63819, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00008118] [2023-06-25 19:43:46,972] - Components::process(): Found all the components!
+  INFO [0x00008118] [2023-06-25 19:43:48,968] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:12052, extaddr:192.168.126.1, extport:20013,  from 192.168.126.1:12067/0/0/0.
+  INFO [0x00008118] [2023-06-25 19:43:48,968] - Components::addComponent[loginapp], uid=63819, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00008118] [2023-06-25 19:43:49,180] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:12051, extaddr:nonsupport, extport:0,  from 192.168.126.1:12068/0/0/0.
+  INFO [0x00008118] [2023-06-25 19:43:49,180] - Components::addComponent[dbmgr], uid=63819, componentID=4000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x000097b4] [2023-06-25 19:44:49,258] - 
+  INFO [0x000097b4] [2023-06-25 19:44:49,258] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x000097b4] [2023-06-25 19:44:49,259] - Resmgr::initialize: KBE_ROOT=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/
+  INFO [0x000097b4] [2023-06-25 19:44:49,259] - Resmgr::initialize: KBE_RES_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/res/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/scripts/;E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/getStart_assets/res/
+  INFO [0x000097b4] [2023-06-25 19:44:49,259] - Resmgr::initialize: KBE_BIN_PATH=E:/XMeditation/StudyServer/KBEngine/kbengine-2.5.12/kbe/bin/server/
+  INFO [0x000097b4] [2023-06-25 19:44:49,275] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:12106 )
+  INFO [0x000097b4] [2023-06-25 19:44:49,275] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.126.1:12106, SOMAXCONN=511.
+  INFO [0x000097b4] [2023-06-25 19:44:49,276] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.126.1 ( 192.168.126.1:12107 )
+  INFO [0x000097b4] [2023-06-25 19:44:49,276] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.126.1:12107, SOMAXCONN=511.
+  INFO [0x000097b4] [2023-06-25 19:44:49,278] - ---- logger Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E869149E2D4B3C31DD72F70194697F21. Config: Debug X64. Built: 20:06:53 Jun 15 2023. AppID: 2000. UID: 63819. PID: 60284 ----
+  INFO [0x000097b4] [2023-06-25 19:44:49,278] - Server PC: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz with 33463320kB RAM
+  INFO [0x000097b4] [2023-06-25 19:44:49,278] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x000097b4] [2023-06-25 19:44:49,278] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x000097b4] [2023-06-25 19:44:49,445] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 15 2023, 20:01:41) [MSC v.1936 64 bit (AMD64)])!
+  INFO [0x000097b4] [2023-06-25 19:44:49,445] - Script::install(): KBExtra is successfully!
+S_INFO [0x000097b4] [2023-06-25 19:44:49,453] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x000097b4] [2023-06-25 19:44:49,453] - TelnetServer server is running on port 34000
+  INFO [0x000097b4] [2023-06-25 19:44:49,455] - ---- logger is running ----
+ DEBUG [0x000097b4] [2023-06-25 19:44:49,455] - Components::process(): Request for the process of identity...
+  INFO [0x000097b4] [2023-06-25 19:44:56,954] - Components::process(): Found all the components!
+  INFO [0x000097b4] [2023-06-25 19:44:57,585] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:12109, extaddr:nonsupport, extport:0,  from 192.168.126.1:12129/0/0/0.
+  INFO [0x000097b4] [2023-06-25 19:44:57,586] - Components::addComponent: reset orderLog, uid=63819!
+  INFO [0x000097b4] [2023-06-25 19:44:57,586] - Components::addComponent[baseappmgr], uid=63819, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x000097b4] [2023-06-25 19:44:58,705] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:12110, extaddr:nonsupport, extport:0,  from 192.168.126.1:12132/0/0/0.
+  INFO [0x000097b4] [2023-06-25 19:44:58,705] - Components::addComponent[cellappmgr], uid=63819, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x000097b4] [2023-06-25 19:44:59,221] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:12111, extaddr:192.168.126.1, extport:20013,  from 192.168.126.1:12133/0/0/0.
+  INFO [0x000097b4] [2023-06-25 19:44:59,221] - Components::addComponent[loginapp], uid=63819, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x000097b4] [2023-06-25 19:44:59,334] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:12112, extaddr:192.168.126.1, extport:20015,  from 192.168.126.1:12134/0/0/0.
+  INFO [0x000097b4] [2023-06-25 19:44:59,335] - Components::addComponent[baseapp], uid=63819, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x000097b4] [2023-06-25 19:44:59,346] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:12108, extaddr:nonsupport, extport:0,  from 192.168.126.1:12135/0/0/0.
+  INFO [0x000097b4] [2023-06-25 19:44:59,346] - Components::addComponent[dbmgr], uid=63819, componentID=4000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x000097b4] [2023-06-25 19:44:59,483] - ServerApp::onRegisterNewApp: uid:63819, username:PC, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.126.1, intport:12113, extaddr:nonsupport, extport:0,  from 192.168.126.1:12136/0/0/0.
+  INFO [0x000097b4] [2023-06-25 19:44:59,483] - Components::addComponent[cellapp], uid=63819, componentID=8001, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x000097b4] [2023-06-25 19:46:08,742] - Logger::registerLogWatcher: addr=192.168.126.1:12194 is successfully!
+  WARN [0x000097b4] [2023-06-25 19:46:14,324] - TCPPacketReceiver::processPendingEvents(192.168.126.1:12194): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x000097b4] [2023-06-25 19:46:26,598] - Logger::registerLogWatcher: addr=192.168.126.1:12225 is successfully!
+  WARN [0x000097b4] [2023-06-25 19:46:26,631] - TCPPacketReceiver::processPendingEvents(192.168.126.1:12225): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x000097b4] [2023-06-25 19:46:38,454] - Logger::registerLogWatcher: addr=192.168.126.1:12242 is successfully!
+  WARN [0x000097b4] [2023-06-25 19:46:42,432] - TCPPacketReceiver::processPendingEvents(192.168.126.1:12242): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET

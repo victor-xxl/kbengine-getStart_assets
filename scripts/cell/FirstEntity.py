@@ -5,6 +5,7 @@ from KBEDebug import *
 
 class FirstEntity(KBEngine.Entity):
 	def __init__(self):
+		#onEnter：在FirstEntity.def中自定义的函数，该函数用于告诉客户端，用户已进入服务器
 		self.client.onEnter()
 		pass 
 
